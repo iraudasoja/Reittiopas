@@ -32,14 +32,10 @@ struct ContentView: View {
                 }
                 Section(header: Text("KOHDE")) {
                     Text("Uusi osoite")
-                    Button(action: {
-                        logger.log("Finding route to Home")
-                    }) {
+                    NavigationLink(destination: ResultView()) {
                         Text("🏡 Koti")
                     }
-                    Button(action: {
-                        logger.log("Finding route to the Office")
-                    }) {
+                    NavigationLink(destination: ResultView()) {
                         Text("🏢 Toimisto")
                     }
                 }

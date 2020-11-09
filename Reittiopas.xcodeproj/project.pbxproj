@@ -13,6 +13,7 @@
 		43B1D32F2559C6A900BDED7B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43B1D32E2559C6A900BDED7B /* Preview Assets.xcassets */; };
 		43B1D33A2559C6A900BDED7B /* ReittiopasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B1D3392559C6A900BDED7B /* ReittiopasTests.swift */; };
 		43B1D3452559C6A900BDED7B /* ReittiopasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B1D3442559C6A900BDED7B /* ReittiopasUITests.swift */; };
+		B910E7124AE3CABD00FBF211 /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B910E05A9E4FFD56DD870B13 /* ResultView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		43B1D3402559C6A900BDED7B /* ReittiopasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReittiopasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		43B1D3442559C6A900BDED7B /* ReittiopasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReittiopasUITests.swift; sourceTree = "<group>"; };
 		43B1D3462559C6A900BDED7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B910E05A9E4FFD56DD870B13 /* ResultView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				43B1D32B2559C6A900BDED7B /* Assets.xcassets */,
 				43B1D3302559C6A900BDED7B /* Info.plist */,
 				43B1D32D2559C6A900BDED7B /* Preview Content */,
+				B910E05A9E4FFD56DD870B13 /* ResultView.swift */,
 			);
 			path = Reittiopas;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			files = (
 				43B1D32A2559C6A700BDED7B /* ContentView.swift in Sources */,
 				43B1D3282559C6A700BDED7B /* ReittiopasApp.swift in Sources */,
+				B910E7124AE3CABD00FBF211 /* ResultView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
