@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		43B1D3282559C6A700BDED7B /* ReittiopasApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B1D3272559C6A700BDED7B /* ReittiopasApp.swift */; };
+		43B1D32A2559C6A700BDED7B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B1D3292559C6A700BDED7B /* ContentView.swift */; };
+		43B1D32C2559C6A900BDED7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43B1D32B2559C6A900BDED7B /* Assets.xcassets */; };
+		43B1D32F2559C6A900BDED7B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43B1D32E2559C6A900BDED7B /* Preview Assets.xcassets */; };
+		43B1D33A2559C6A900BDED7B /* ReittiopasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B1D3392559C6A900BDED7B /* ReittiopasTests.swift */; };
+		43B1D3452559C6A900BDED7B /* ReittiopasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B1D3442559C6A900BDED7B /* ReittiopasUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		43B1D3362559C6A900BDED7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43B1D31C2559C6A700BDED7B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43B1D3232559C6A700BDED7B;
+			remoteInfo = Reittiopas;
+		};
+		43B1D3412559C6A900BDED7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43B1D31C2559C6A700BDED7B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43B1D3232559C6A700BDED7B;
+			remoteInfo = Reittiopas;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		43B1D3242559C6A700BDED7B /* Reittiopas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Reittiopas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		43B1D3272559C6A700BDED7B /* ReittiopasApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReittiopasApp.swift; sourceTree = "<group>"; };
+		43B1D3292559C6A700BDED7B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		43B1D32B2559C6A900BDED7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		43B1D32E2559C6A900BDED7B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		43B1D3302559C6A900BDED7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43B1D3352559C6A900BDED7B /* ReittiopasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReittiopasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		43B1D3392559C6A900BDED7B /* ReittiopasTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReittiopasTests.swift; sourceTree = "<group>"; };
+		43B1D33B2559C6A900BDED7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43B1D3402559C6A900BDED7B /* ReittiopasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReittiopasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		43B1D3442559C6A900BDED7B /* ReittiopasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReittiopasUITests.swift; sourceTree = "<group>"; };
+		43B1D3462559C6A900BDED7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43B1D3212559C6A700BDED7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43B1D3322559C6A900BDED7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43B1D33D2559C6A900BDED7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43B1D31B2559C6A700BDED7B = {
+			isa = PBXGroup;
+			children = (
+				43B1D3262559C6A700BDED7B /* Reittiopas */,
+				43B1D3382559C6A900BDED7B /* ReittiopasTests */,
+				43B1D3432559C6A900BDED7B /* ReittiopasUITests */,
+				43B1D3252559C6A700BDED7B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		43B1D3252559C6A700BDED7B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43B1D3242559C6A700BDED7B /* Reittiopas.app */,
+				43B1D3352559C6A900BDED7B /* ReittiopasTests.xctest */,
+				43B1D3402559C6A900BDED7B /* ReittiopasUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43B1D3262559C6A700BDED7B /* Reittiopas */ = {
+			isa = PBXGroup;
+			children = (
+				43B1D3272559C6A700BDED7B /* ReittiopasApp.swift */,
+				43B1D3292559C6A700BDED7B /* ContentView.swift */,
+				43B1D32B2559C6A900BDED7B /* Assets.xcassets */,
+				43B1D3302559C6A900BDED7B /* Info.plist */,
+				43B1D32D2559C6A900BDED7B /* Preview Content */,
+			);
+			path = Reittiopas;
+			sourceTree = "<group>";
+		};
+		43B1D32D2559C6A900BDED7B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				43B1D32E2559C6A900BDED7B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		43B1D3382559C6A900BDED7B /* ReittiopasTests */ = {
+			isa = PBXGroup;
+			children = (
+				43B1D3392559C6A900BDED7B /* ReittiopasTests.swift */,
+				43B1D33B2559C6A900BDED7B /* Info.plist */,
+			);
+			path = ReittiopasTests;
+			sourceTree = "<group>";
+		};
+		43B1D3432559C6A900BDED7B /* ReittiopasUITests */ = {
+			isa = PBXGroup;
+			children = (
+				43B1D3442559C6A900BDED7B /* ReittiopasUITests.swift */,
+				43B1D3462559C6A900BDED7B /* Info.plist */,
+			);
+			path = ReittiopasUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		43B1D3232559C6A700BDED7B /* Reittiopas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43B1D3492559C6A900BDED7B /* Build configuration list for PBXNativeTarget "Reittiopas" */;
+			buildPhases = (
+				43B1D3202559C6A700BDED7B /* Sources */,
+				43B1D3212559C6A700BDED7B /* Frameworks */,
+				43B1D3222559C6A700BDED7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Reittiopas;
+			productName = Reittiopas;
+			productReference = 43B1D3242559C6A700BDED7B /* Reittiopas.app */;
+			productType = "com.apple.product-type.application";
+		};
+		43B1D3342559C6A900BDED7B /* ReittiopasTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43B1D34C2559C6A900BDED7B /* Build configuration list for PBXNativeTarget "ReittiopasTests" */;
+			buildPhases = (
+				43B1D3312559C6A900BDED7B /* Sources */,
+				43B1D3322559C6A900BDED7B /* Frameworks */,
+				43B1D3332559C6A900BDED7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43B1D3372559C6A900BDED7B /* PBXTargetDependency */,
+			);
+			name = ReittiopasTests;
+			productName = ReittiopasTests;
+			productReference = 43B1D3352559C6A900BDED7B /* ReittiopasTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		43B1D33F2559C6A900BDED7B /* ReittiopasUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43B1D34F2559C6A900BDED7B /* Build configuration list for PBXNativeTarget "ReittiopasUITests" */;
+			buildPhases = (
+				43B1D33C2559C6A900BDED7B /* Sources */,
+				43B1D33D2559C6A900BDED7B /* Frameworks */,
+				43B1D33E2559C6A900BDED7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43B1D3422559C6A900BDED7B /* PBXTargetDependency */,
+			);
+			name = ReittiopasUITests;
+			productName = ReittiopasUITests;
+			productReference = 43B1D3402559C6A900BDED7B /* ReittiopasUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		43B1D31C2559C6A700BDED7B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					43B1D3232559C6A700BDED7B = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					43B1D3342559C6A900BDED7B = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 43B1D3232559C6A700BDED7B;
+					};
+					43B1D33F2559C6A900BDED7B = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 43B1D3232559C6A700BDED7B;
+					};
+				};
+			};
+			buildConfigurationList = 43B1D31F2559C6A700BDED7B /* Build configuration list for PBXProject "Reittiopas" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 43B1D31B2559C6A700BDED7B;
+			productRefGroup = 43B1D3252559C6A700BDED7B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				43B1D3232559C6A700BDED7B /* Reittiopas */,
+				43B1D3342559C6A900BDED7B /* ReittiopasTests */,
+				43B1D33F2559C6A900BDED7B /* ReittiopasUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		43B1D3222559C6A700BDED7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43B1D32F2559C6A900BDED7B /* Preview Assets.xcassets in Resources */,
+				43B1D32C2559C6A900BDED7B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43B1D3332559C6A900BDED7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43B1D33E2559C6A900BDED7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43B1D3202559C6A700BDED7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43B1D32A2559C6A700BDED7B /* ContentView.swift in Sources */,
+				43B1D3282559C6A700BDED7B /* ReittiopasApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43B1D3312559C6A900BDED7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43B1D33A2559C6A900BDED7B /* ReittiopasTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43B1D33C2559C6A900BDED7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43B1D3452559C6A900BDED7B /* ReittiopasUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		43B1D3372559C6A900BDED7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43B1D3232559C6A700BDED7B /* Reittiopas */;
+			targetProxy = 43B1D3362559C6A900BDED7B /* PBXContainerItemProxy */;
+		};
+		43B1D3422559C6A900BDED7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43B1D3232559C6A700BDED7B /* Reittiopas */;
+			targetProxy = 43B1D3412559C6A900BDED7B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		43B1D3472559C6A900BDED7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		43B1D3482559C6A900BDED7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		43B1D34A2559C6A900BDED7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Reittiopas/Preview Content\"";
+				DEVELOPMENT_TEAM = 6ZSJ45TPYC;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Reittiopas/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = freshbits.Reittiopas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		43B1D34B2559C6A900BDED7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Reittiopas/Preview Content\"";
+				DEVELOPMENT_TEAM = 6ZSJ45TPYC;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Reittiopas/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = freshbits.Reittiopas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		43B1D34D2559C6A900BDED7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6ZSJ45TPYC;
+				INFOPLIST_FILE = ReittiopasTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = freshbits.ReittiopasTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Reittiopas.app/Reittiopas";
+			};
+			name = Debug;
+		};
+		43B1D34E2559C6A900BDED7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6ZSJ45TPYC;
+				INFOPLIST_FILE = ReittiopasTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = freshbits.ReittiopasTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Reittiopas.app/Reittiopas";
+			};
+			name = Release;
+		};
+		43B1D3502559C6A900BDED7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6ZSJ45TPYC;
+				INFOPLIST_FILE = ReittiopasUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = freshbits.ReittiopasUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Reittiopas;
+			};
+			name = Debug;
+		};
+		43B1D3512559C6A900BDED7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6ZSJ45TPYC;
+				INFOPLIST_FILE = ReittiopasUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = freshbits.ReittiopasUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Reittiopas;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		43B1D31F2559C6A700BDED7B /* Build configuration list for PBXProject "Reittiopas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43B1D3472559C6A900BDED7B /* Debug */,
+				43B1D3482559C6A900BDED7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43B1D3492559C6A900BDED7B /* Build configuration list for PBXNativeTarget "Reittiopas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43B1D34A2559C6A900BDED7B /* Debug */,
+				43B1D34B2559C6A900BDED7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43B1D34C2559C6A900BDED7B /* Build configuration list for PBXNativeTarget "ReittiopasTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43B1D34D2559C6A900BDED7B /* Debug */,
+				43B1D34E2559C6A900BDED7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43B1D34F2559C6A900BDED7B /* Build configuration list for PBXNativeTarget "ReittiopasUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43B1D3502559C6A900BDED7B /* Debug */,
+				43B1D3512559C6A900BDED7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 43B1D31C2559C6A700BDED7B /* Project object */;
+}
