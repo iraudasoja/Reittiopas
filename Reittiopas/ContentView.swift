@@ -6,6 +6,9 @@
 //
 
 import SwiftUI
+import os
+
+let logger = Logger(subsystem: Bundle.main.bundleIdentifier!, category: "ui")
 
 struct ContentView: View {
     var body: some View {
@@ -29,13 +32,15 @@ struct ContentView: View {
                 }
                 Section(header: Text("KOHDE")) {
                     Text("Uusi osoite")
-                    HStack {
-                        Text("🏡")
-                        Text("Koti")
+                    Button(action: {
+                        logger.log("Finding route to Home")
+                    }) {
+                        Text("🏡 Koti")
                     }
-                    HStack {
-                        Text("🏢")
-                        Text("Toimisto")
+                    Button(action: {
+                        logger.log("Finding route to the Office")
+                    }) {
+                        Text("🏢 Toimisto")
                     }
                 }
             }
